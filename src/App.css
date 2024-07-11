@@ -1,0 +1,52 @@
+.index-page, .login-page, .candidate-home-page {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.search-component {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search-component input {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.search-component button {
+  padding: 10px;
+}
+
+.list-card {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.list-card h3 {
+  margin-bottom: 10px;
+}
+
+.list-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list-card ul li {
+  padding: 5px 0;
+}
+
+.login-page input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.login-page button {
+  padding: 10px;
+  width: 100%;
+}
